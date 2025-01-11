@@ -71,7 +71,7 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7 text-white shadow-lg">
-            Creative Routine LLC
+            <h2 className="font-bold">Creative Routine Website</h2>
             {/* <img src="/img/logo.png" alt="logo" className="w-10" /> */}
 
             {/* <Button
