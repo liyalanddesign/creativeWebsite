@@ -71,14 +71,15 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            Creative Routine LLC
+            {/* <img src="/img/logo.png" alt="logo" className="w-10" /> */}
 
-            <Button
+            {/* <Button
               id="product-button"
               title="Make order"
               rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-            />
+            /> */}
           </div>
 
           {/* Navigation Links and Audio Button */}
